@@ -1,0 +1,16 @@
+#demo{
+    box
+    width: 400px;
+    height:300px;
+    border-color: brown;
+}
+#demo1{
+    width:200px;
+    height: 150px;
+    border-color: blue;
+}
+#demo2{
+    width:150px;
+    height:80px;
+    border-color: chocolate;
+}

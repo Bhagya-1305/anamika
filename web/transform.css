@@ -1,0 +1,32 @@
+#father{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    background-color: cornflowerblue;
+    border: 10px solid red;
+    align-items: center;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/close-up-of-cat-wearing-sunglasses-while-sitting-royalty-free-image-1571755145.jpg);
+}
+#mother{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    background-color:crimson;
+    border: 10px solid blueviolet;
+    align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKr5wT7rfkjkGvNeqgXjBmarC5ZNoZs-H2uMpML8O7Q4F9W-IlUQibBT6IPqyvX45NOgw&usqp=CAU);
+
+}
+#mother:hover{
+    background-color: orange;
+    transform: rotate(360 deg);
+    transform: rotatex(360 deg);
+    transform: skew(90deg,180deg);
+    transform: skewX(270deg);
+    transform: skewY(360deg);
+    transform: scale(2,3);
+    transform:translate(-120px,-250px);
+    transform:translateX(-250px);
+    transform:translateY(-250px);
+
+}

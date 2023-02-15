@@ -1,0 +1,33 @@
+#de{
+    width: 1000px;
+    height: px;
+    /* display: flex; */
+    background-image: image();
+    /* justify-content: space-between; */
+    border: 6px solid rgb(55, 0, 255);
+
+}
+#demo{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    margin-left: 70px;
+    margin-bottom: 60px;
+    margin-right: 50px;
+    margin-top: 60px;
+    background-image: image();
+    justify-content: space-between;
+    border: 6px solid red;
+}
+#demo1{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    margin-right: 20px;
+    background-image: image();
+    justify-content: space-between;
+    border: 6px solid black;
+}

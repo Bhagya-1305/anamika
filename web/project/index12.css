@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/30/2017/07/GettyImages-1204189958-fb4b98b.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.loginpage{
+    width:400px;
+    height: 400px;
+    background-color:burlywood;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 70px;
+}
+.avathar{
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    position:absolute;
+    top:-0px;
+    position: absolute;
+    left:calc(50% - 50px);
+
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+}
+.loginpage p{
+    font-weight: bold;
+}
+.loginpage input{
+    width:100%;
+    margin-bottom:3px;
+}
+.loginpage button{
+    width:103%;
+}
+.loginpage input[type="text"],input[type="password"]
+{
+    border:none;
+    border-bottom:1px solid snow;
+    background: transparent;
+    outline:none;
+    height:10px;
+    color:blue;
+    font-size: 15px;
+
+}
+.loginpage button[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:30px;
+    background-color: blue;
+    color:black;
+    font-size: 16px;
+    border-radius: 20px;
+
+}
+.loginpage button[type="submit"]:hover
+{
+ cursor:pointer;
+ background: #000;
+ color:blueviolet;
+}
+.loginpage a{
+    text-decoration:none;
+    font-size: 12px;
+    line-height: 20px;
+    color:black;
+}
+.loginpage a:hover
+{
+color:blue;
+}

@@ -1,0 +1,11 @@
+#true::before{
+    content:"->true";
+    color: brown;
+}
+#false::after{
+    content:"->false";
+    color: aquamarine;
+}
+p::first-letter{
+    color: blue;
+}
